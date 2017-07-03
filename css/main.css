@@ -1051,7 +1051,7 @@
   .menu-item {
     margin: 0 10px; } }
 
-@media (max-width: 1000px) {
+@media (max-width: 1020px) {
   .burger {
     display: block;
     margin: 20px 0 11px; }
