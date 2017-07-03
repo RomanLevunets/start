@@ -1136,7 +1136,8 @@
     text-align: center;
     margin-top: 20px; }
   .select-language {
-    padding: 5px 20px 5px 0; }
+    padding: 5px 20px 5px 0;
+    margin-top: 0; }
   .meeting-item {
     width: -webkit-calc(100% - 20px);
     width: calc(100% - 20px); }
