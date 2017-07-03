@@ -25,7 +25,6 @@ $(document).ready(function() {
     });
 
     $('.menu-item-meth').click(function() {
-        event.preventDefault();
         if (!$(this).hasClass('active-h')) {
             $('.menu-item-meth').removeClass('active-h');
             $(this).addClass('active-h');
@@ -46,7 +45,6 @@ $(document).ready(function() {
         removalDelay: 250,
         mainClass: 'mfp-fade'
     });
-
 
 
     $('#registration-form').validate({
