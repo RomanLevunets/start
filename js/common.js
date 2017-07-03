@@ -39,10 +39,10 @@ $(document).ready(function() {
     });
 
 
-    $('.form-sing').click(function () {
+    $('.block-sing').click(function () {
         event.preventDefault();
     });
-    $('.form-sing').magnificPopup({
+    $('.block-sing').magnificPopup({
         removalDelay: 250,
         mainClass: 'mfp-fade'
     });

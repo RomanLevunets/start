@@ -180,9 +180,9 @@
 .language-item {
   background: rgba(27, 27, 27, 0.9); }
 
-.form {
+.block {
   display: inline-block; }
-  .form-language, .form-registration, .select-language {
+  .block-language, .block-registration, .select-language {
     font: 100% "Lato-Bold", sans-serif;
     font-size: 14px;
     background: transparent;
@@ -195,17 +195,18 @@
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
     border: none; }
-    .form-language:active, .form-registration:active, .select-language:active {
+    .block-language:active, .block-registration:active, .select-language:active {
       border: none;
       outline: none; }
-  .form-registration, .select-language {
+  .block-registration, .select-language {
     font-size: 13px;
+    text-decoration: none;
     margin: 0 20px;
     padding: 0; }
-  .form-sing {
+  .block-sing {
     cursor: pointer;
-    width: 100px;
-    height: 35px;
+    padding: 10px 17px;
+    text-decoration: none;
     text-transform: uppercase;
     font: 100% "Lato-Bold", sans-serif;
     font-size: 13px;
@@ -214,13 +215,12 @@
     background: -webkit-linear-gradient(top, #FFAF00 0%, #FF6F00 100%);
     background: -o-linear-gradient(top, #FFAF00 0%, #FF6F00 100%);
     background: linear-gradient(to bottom, #FFAF00 0%, #FF6F00 100%);
-    border: none;
     -webkit-border-radius: 5px;
             border-radius: 5px;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease; }
-    .form-sing:hover {
+    .block-sing:hover {
       background: -webkit-gradient(linear, left top, left bottom, from(#FF6F00), to(#FFAF00));
       background: -webkit-linear-gradient(top, #FF6F00 0%, #FFAF00 100%);
       background: -o-linear-gradient(top, #FF6F00 0%, #FFAF00 100%);
@@ -245,7 +245,7 @@
 .select-language {
   text-decoration: none;
   margin: 0;
-  padding: 31px 20px;
+  padding: 36px 20px;
   margin-right: 10px;
   position: relative;
   display: inline-block; }
@@ -631,7 +631,8 @@
     -o-transition: .4s linear;
     transition: .4s linear; }
     .post-hover-arrow {
-      padding-left: 11px; }
+      padding-left: 11px;
+      display: inline; }
     .post-hover:hover {
       opacity: 1; }
   .post:last-child {
@@ -970,7 +971,8 @@
             border-radius: 5px;
     border: 1px solid #999;
     padding: 0 17px;
-    font: 100% "lato-mediumitalic", sans-serif; }
+    font: 100% "lato-mediumitalic", sans-serif;
+    text-decoration: none; }
   .form-authorization-password {
     margin-bottom: 20px; }
   .form-authorization-btn {
@@ -1043,7 +1045,7 @@
     opacity: 0; }
 
 @media (max-width: 1172px) {
-  .form-language, .form-registration, .select-language {
+  .form-language {
     margin: 0 10px; }
   .menu-item {
     margin: 0 10px; } }
@@ -1056,7 +1058,7 @@
     width: 50%; }
   .menu {
     display: none; }
-  .form {
+  .block {
     display: block;
     float: left; }
   .b-menu {
@@ -1146,7 +1148,7 @@
       position: absolute;
       bottom: 0;
       left: 10px; }
-  .form {
+  .block {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1159,12 +1161,14 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: fixed;
-    top: 0;
+    top: 10px;
     right: 10px;
     left: 10px; }
-    .form-sing {
-      height: 25px; }
-    .form-language, .form-registration, .select-language {
+    .block-sing {
+      padding: 5px 10px; }
+    .block-registration, .select-language {
+      padding-top: 5px; }
+    .block-language, .block-registration, .select-language {
       font-size: 12px; }
   .b-menu {
     top: 90px; }
