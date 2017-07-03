@@ -1141,7 +1141,7 @@
     width: 80%; }
   .header {
     height: 90px;
-    position: relative; }
+    position: fixed; }
     .header-content-logo {
       position: absolute;
       bottom: 0;
@@ -1158,7 +1158,7 @@
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 10px;
     left: 10px; }

@@ -47,6 +47,8 @@ $(document).ready(function() {
         mainClass: 'mfp-fade'
     });
 
+
+
     $('#registration-form').validate({
         rules: {
             name: {
